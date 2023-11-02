@@ -1,10 +1,10 @@
 use yew::prelude::*;
 use yew_router::prelude::*;
 
-mod component;
 mod router;
+mod pages;
 
-use component::Component;
+// use component::Component;
 use router::*;
 
 #[function_component(App)]
