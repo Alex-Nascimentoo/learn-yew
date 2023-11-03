@@ -1,7 +1,6 @@
 use yew::prelude::*;
 use wasm_bindgen_futures;
 use reqwasm::http::Request;
-use web_sys::{console, wasm_bindgen::JsValue};
 use serde::{Deserialize, Serialize};
 
 #[derive(Clone, PartialEq, Serialize, Deserialize)]
